@@ -16,7 +16,7 @@ The system is designed for operational nowcasting in renewable energy systems wh
 * Area of Interest (AOI) based processing: Focuses only on the specified geographic region to reduce computation time.
 * Cloud detection: Uses autoencoder reconstruction error to identify cloud coverage in visible satellite imagery.
 * Cloud index calculation: Quantifies cloud attenuation effect on GHI.
-* Clear-sky GHI estimation: Uses PVLibâ€™s Solis model.
+* Clear-sky GHI estimation: Uses PVLibÃ¢â‚¬â„¢s Solis model.
 * Spatiotemporal deep learning model:
 
   * Encoder for extracting spatial features
@@ -77,10 +77,10 @@ Python 3.8+ and the following packages:
 
 ## Authors & Credits
 
-* Lakshmi P “Vellore Institute of Technology, Chennai
-* Kalpalathika N “Vellore Institute of Technology, Chennai
-* Jumin Salih “Vellore Institute of Technology, Chennai
-* Nihal Siddiqi “Vellore Institute of Technology, Chennai
-* Bhuvaneswari A “Assistant Professor, Vellore Institute of Technology, Chennai
+* Lakshmi P â€œVellore Institute of Technology, Chennai"
+* Kalpalathika N â€œVellore Institute of Technology, Chennai"
+* Jumin Salih â€œVellore Institute of Technology, Chennai"
+* Nihal Siddiqi â€œVellore Institute of Technology, Chennai"
+* Bhuvaneswari A â€œAssistant Professor, Vellore Institute of Technology, Chennai"
 
-Research Paper: *Enhanced Short-Term GHI Prediction Using Cloud-Aware Deep Autoencoder Network* “IEEE, ICSCSA 2025.
+Research Paper: *Enhanced Short-Term GHI Prediction Using Cloud-Aware Deep Autoencoder Network* â€œIEEE, ICSCSA 2025.
