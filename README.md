@@ -2,21 +2,19 @@
 
 ## Project Description
 
-This project focuses on short-term Global Horizontal Irradiance (GHI) forecasting using visible-band satellite imagery from the INSAT-3D series. The model uses a spatiotemporal autoencoder integrated with ConvLSTM layers to capture cloud movement and predict GHI for the next 2 hours at 30-minute intervals.
+This project focuses on short-term Global Horizontal Irradiance (GHI) forecasting using visible-band satellite imagery from the INSAT-3D database. The model uses a spatiotemporal autoencoder integrated with ConvLSTM layers to capture cloud movement and predict GHI for the next 2 hours at 30-minute intervals.
 It combines:
 
-* Physics-based clear-sky irradiance modeling (PVLib Solis model)
+* Physics-based clear-sky irradiance modeling
 * Cloud mask generation and cloud index computation
 * Deep learning for temporal pattern recognition
-
-The system is designed for operational nowcasting in renewable energy systems where real-time solar forecasting is required.
 
 ## Features & Methodology Summary
 
 * Area of Interest (AOI) based processing: Focuses only on the specified geographic region to reduce computation time.
 * Cloud detection: Uses autoencoder reconstruction error to identify cloud coverage in visible satellite imagery.
 * Cloud index calculation: Quantifies cloud attenuation effect on GHI.
-* Clear-sky GHI estimation: Uses PVLibâ€™s Solis model.
+* Clear-sky GHI estimation: Uses PVLib's Solis model.
 * Spatiotemporal deep learning model:
 
   * Encoder for extracting spatial features
